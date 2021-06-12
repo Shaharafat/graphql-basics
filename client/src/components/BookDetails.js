@@ -20,7 +20,7 @@ const BookDetails = ({ bookId }) => {
 	}
 
 	return (
-		<div>
+		<div id="book-details">
 			<p>Output book details here.</p>
 			<h1>{data?.book?.name}</h1>
 			<p>{data?.book?.genre}</p>
